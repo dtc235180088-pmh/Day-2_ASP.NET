@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Demo View Component";
+}
+
+<h2>Bài thực hành View Component</h2>
+
+@await Component.InvokeAsync(
+"Chao",
+    new { ten = "Sinh viên KTPM K22C" }
+)
